@@ -1,0 +1,384 @@
+/* SMARTPHONE */
+@media screen and (min-width:320px) and (max-width:575px){
+     /* HEADER */
+     #header{
+          padding:32px 10px;
+     }
+     #header .content .navigation{
+          display:none;
+     }
+     #header .menu-mobile{
+          display:none;
+     }
+     #header .right .icon-menu{
+          display:block;
+     }
+     #header .menu-mobile .navigation-list{
+          padding:10px 20px;
+     }
+     /* MODAL SAERCH */
+     #modal-search input[type='text']{
+          width:70%;
+     }
+     #modal-search .modal-icon{
+          font-size:30px;
+     }
+     /* BANNER */
+     #banner .banner-description{
+          left:10%;
+     }
+     #banner .banner-description span {
+          font-size:15px;
+
+     }
+     #banner .banner-description h2 {
+          font-size:20px;
+          padding:10px 0;
+     }
+
+     #banner .banner-description button {
+          width:65%;
+     }
+     #banner .banner-description .link-shop {
+          padding:5px 0;
+     }
+     #banner .banner-item .arrow-left,
+     #banner .banner-item .arrow-right{
+          font-size:15px;
+     }
+     /* CATEGORIES */
+     #categories .categories-group{
+          display:block;
+          margin:0;
+          padding:0;
+     }
+     #categories .group-item{
+          margin:15px 10px;
+     }
+     #categories .categories-link{
+          display:none;
+     }
+     /* PRODUCT */
+     #product .product-top{
+          margin:0;
+     }
+     #product .product-top .product-list{
+          flex-wrap: wrap;
+     }
+     #product .product-top h2{
+          font-size:25px;
+     }
+     #product .product-content{
+          display:block;
+          margin:0
+     }
+     #product .product-content .col{
+          width:100%;
+          padding:0 0 30px 0;
+     }
+     #product .product-footer{
+          margin:0;
+     }
+     #product .product-img{
+          height:auto;
+     }
+     /* WILLIST MODAL */
+     #product .willist{
+          width:275px;
+          height:240px;
+     }
+     #product .willist .willist-button{
+          padding:5px 16px;
+          margin-top:20px;
+     }
+     #product .willist .willist-icon{
+          width:60px;
+          height:60px;
+     }
+     /* FOOTER */
+     #footer-area .footer{
+          margin:0;
+     }
+     #footer-area .footer-info{
+          display:block;
+     }
+     #footer-area .footer-info .col{
+          width:100%;
+     }
+     #footer-area .sub-button p{
+          padding:10px 0;
+     }
+ }
+/* SMALL DEVICE*/
+@media screen and (min-width:576px) and (max-width:767px){
+     /* HEADER */
+     #header{
+          padding:32px 30px;
+     }
+     #header .content .navigation{
+          display:none;
+     }
+     #header .menu-mobile{
+          display:none;
+     }
+     #header .right .icon-menu{
+          display:block;
+     }
+     #header .menu-mobile .navigation-list{
+          padding:10px 30px;
+     }
+     #modal-search input[type='text']{
+          width:50%;
+     }
+     /* BANNER */
+     #banner .banner-description{
+          left:10%;
+     }
+     #banner .banner-description span {
+           font-size:20px;
+     }
+
+     #banner .banner-description h2 {
+          font-size:35px;
+          padding:20px 0;
+     }
+
+     #banner .banner-description button {
+           width:50%;
+     }
+
+     #banner .banner-description .link-shop {
+          padding:10px 0;
+     }
+     #banner .banner-item .arrow-left,
+     #banner .banner-item .arrow-right{
+          font-size:20px;
+     }
+     /* CATEGORIES */
+     #categories .categories-group{
+          display:block;
+          margin:0;
+     }
+     #categories .group-item{
+          margin:15px 10px;
+     }
+     #categories .categories-link{
+          display:none;
+     }
+     /* PRODUCT */
+     #product .product-top{
+          margin:0 20px;
+     }
+     #product .product-top .product-list{
+          flex-wrap: wrap;
+     }
+     #product .product-top h2{
+          font-size:25px;
+     }
+     #product .product-content{
+          display:flex;
+          margin:0;
+     }
+     #product .product-content .col{
+          width:calc(100%/2);
+
+     }
+     #product .product-img{
+          height:auto;
+     }
+     /* WILLIST MODAL */
+     #product .willist{
+          width:350px;
+          height:250px;
+     }
+     #product .willist .willist-button{
+          padding:10px 16px;
+          margin-top:10px;
+     }
+     #product .willist .willist-icon{
+          width:70px;
+          height:70px;
+     }
+    /* FOOTER */
+    #footer-area .footer{
+     margin:0;
+     }
+     #footer-area .footer-info{
+     display:flex;
+     flex-wrap:wrap;
+     }
+     #footer-area .footer-info .col{
+     width:calc(100%/2);
+     }
+     #footer-area .sub-button p{
+     padding:10px 0;
+     }
+}
+/* MEDIUM DEVICE */
+@media screen and (min-width:768px) and (max-width:991px){
+     /* HEADER */
+     #header{
+          padding:32px 50px;
+     }
+     #header .content .navigation{
+          display:none;
+     }
+     #header .menu-mobile{
+          display:none;
+     }
+     #header .right .icon-menu{
+          display:block;
+     }
+     #header .menu-mobile .navigation-list{
+          padding:10px 50px;
+     }
+     #modal-search input[type='text']{
+          width:40%;
+     }
+     /* BANNER */
+     #banner .banner-description{
+          left:8%;
+     }
+     #banner .banner-description span {
+          font-size:20px;
+     }
+
+     #banner .banner-description h2 {
+          font-size:35px;
+          padding:20px 0;
+     }
+
+     #banner .banner-description button {
+          width:50%;
+     }
+
+     #banner .banner-description .link-shop {
+          padding:10px 0;
+     }
+     #banner .banner-item .arrow-left,
+     #banner .banner-item .arrow-right{
+          font-size:25px;
+     }
+     /* CATEGORIES */
+     #categories .categories-group{
+          margin:0;
+     }
+     #categories .group-description h4{
+          font-size:20px;
+     }
+     #categories .categories-link a{
+          font-size:15px;
+     }
+     /* PRODUCT */
+     #product .product-top{
+          margin:0 15px;
+     }
+     #product .product-top h2{
+          font-size:25px;
+     }
+     #product .product-content{
+          display:flex;
+          margin:0;
+     }
+     #product .product-content .col{
+          width:calc(100%/3);
+
+     }
+     #product .product-img{
+          height:auto;
+     }
+     /* WILLIST MODAL */
+     #product .willist{
+          width:400px;
+          height:260px;
+     }
+     #product .willist .willist-button{
+          padding:10px 16px;
+          margin-top:10px;
+     }
+     #product .willist .willist-icon{
+          width:75px;
+          height:75px;
+     }
+     /* FOOTER */
+    #footer-area .footer{
+     margin:0;
+     }
+     #footer-area .footer-info{
+     display:flex;
+     flex-wrap:wrap;
+     }
+     #footer-area .footer-info .col{
+     width:calc(100%/2);
+     }
+     #footer-area .sub-button p{
+     padding:10px 0;
+     }
+}
+/* LARGE DEVICE */
+@media screen and (min-width:992px) and (max-width:1199px) {
+     /* HEADER */
+     #header .content .navigation{
+          display:flex;
+     } #header .menu-mobile{
+          display:none;
+     }
+     #header .right .icon-menu{
+          display:none;
+     }
+     #header{
+          padding:32px 100px;
+     }
+     /* BANNER */
+     #banner .banner-description{
+          left:10%;
+     }
+     #banner .banner-description span {
+          font-size:20px;
+     }
+
+     #banner .banner-description h2 {
+          font-size:35px;
+          padding:20px 0;
+     }
+
+     #banner .banner-description button {
+          width:55%;
+     }
+     /* CATEGORIES */
+     #categories .categories-group{
+          margin:0 20px;
+     }
+     /* PRODUCT */
+     #product .product-top{
+          padding:0;
+     }
+     #product .product-top h2{
+          font-size:30px;
+     }
+     #product .product-content{
+          display:flex;
+          margin:0 20px;
+     }
+     #product .product-content .col{
+          width:calc(100%/4);
+     }
+     #product .product-img{
+          height:auto;
+     }
+     #product .product-top{
+          margin:0 50px;
+     }
+     #footer-area .footer{
+          margin:0;
+     }
+     #footer-area .footer-info{
+          display:flex;
+     }
+     #footer-area .footer-info .col{
+          width:calc(100%/4);
+     }
+     #footer-area .sub-button p{
+          padding:10px 0;
+     }
+}
