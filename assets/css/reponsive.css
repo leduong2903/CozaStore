@@ -4,6 +4,12 @@
      #header{
           padding:32px 10px;
      }
+     #header .left{
+          margin-left:10px;
+     }
+     #header .right{
+          margin-right:15px;
+     }
      #header .content .navigation{
           display:none;
      }
