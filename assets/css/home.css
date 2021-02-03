@@ -56,7 +56,7 @@
 #header .navigation-links{
      text-decoration: none;
      color:#515151;
-     font-weight:600;
+     /* font-weight:600; */
      font-size:18px;
      transition:.3s ease-in;
 }
