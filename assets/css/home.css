@@ -587,3 +587,185 @@
 #footer-area .copyright p{
      margin-bottom:5px;
 }
+#product .product-modal{
+     width:100%;
+     height:100%;
+     background-color:rgba(0,0,0,.4);
+     z-index: 1;
+     position: fixed;
+     top:0;
+     left:0;
+     display:none;
+}
+#product .product-modal .modal-content{
+     margin:0 200px;
+     padding:0 15px;
+     position:absolute;
+     top:50%;
+     transform: translateY(-50%);
+}
+#product .product-modal .content{
+     padding-top:60px;
+     padding-bottom:30px;
+     background-color:var(--color-text-second);
+     display:flex;
+}
+#product .product-modal .col-7{
+     width:60%;
+     padding:0 15px;
+}
+#product .product-modal .col-5{
+     width:40%;
+     padding:0 15px;
+}
+#product .product-modal .content-col-7{
+     padding:0 30px 0 25px;
+}
+#product .product-modal .content-col-5{
+     padding:5px 50px 0 0;
+}
+#product .block-images-left{
+     width:11.1111%;
+     margin-right:30px;
+}
+#product .block-images{
+     display:flex;
+}
+#product .images-list{
+     list-style:none;
+}
+#product .images-items{
+     margin-bottom:15px;
+     
+}
+#product .images-products{
+     max-width:100%;
+}
+#product .block-images-right{
+     width:calc(100% - 11.1111%);
+     height:500px;
+}
+#product .images-product{
+     max-width: 100%;
+     height:100%;
+}
+#product .block-description .name{
+     font-size:24px;
+     color:var(--color-text-first);
+     padding-bottom:24px;
+}
+#product .block-description .price{
+     font-size:18px;
+     font-weight:600;
+}
+#product .block-description .description{
+     padding-top:23px;
+     color:var(--color-text-sth);
+}
+#product .block-selection{
+     padding-top:23px;
+}
+#product .block-selection-group {
+     display:flex;
+     align-items:center;
+     padding-bottom:10px;
+}
+#product .block-selection-group p{
+     width:100px;
+     text-align:center;
+}
+#product #selectColor,
+#product #selectSize{
+     height:45px;
+     width:100%;
+     border:1px solid var(--color-text-sth);
+     background-color:transparent;
+     outline:none;
+     padding:0 20px;
+     color:var(--color-text-sth);
+}
+#product #selectColor option,
+#product #selectSize option{
+     padding:20px 0;
+     width:100%;
+}
+#product .block-count{
+     position: relative;
+     left:80px;
+     display:flex;
+     align-items:center;
+}
+#product .block-count .minus,
+#product .block-count .plus,
+#product .block-count input[type='text']{
+     height:40px;
+     width:10%;
+     border:1px solid var(--color-text-sth);
+     text-align: center;
+     margin-bottom:10px;
+}
+#product .block-count .minus,
+#product .block-count .plus{
+     line-height:40px;
+}
+#product .block-add{
+     position: relative;
+     left:80px;
+     width:160px;
+     height:50px;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     background-color:var(--color-text-nth);
+     border-radius: 20px;
+     transition:.3s ease-in;
+}
+#product .block-add p{
+     text-transform:uppercase;
+     color:var(--color-text-second);
+}
+#product .block-add:hover{
+     background-color:var(--background-color-second);
+     color:var(--color-text-second);
+     cursor: pointer;
+}
+#product .block-social {
+     padding:40px 0 0 100px;
+     position: relative;
+}
+#product .block-social .social-item{
+     display:flex;
+     list-style:none;
+}
+#product .block-social .social-list:nth-child(1){
+     margin-right:20px;
+}
+#product .block-social .social-list:nth-child(1)::before{
+     content: '';
+    position: relative;
+    height: 15px;
+    border-right: 1px solid var(--color-text-sth);
+    width: 1px;
+    left:25px;
+    bottom: 0px;
+}
+#product .block-social .social-list{
+     margin-right:10px;
+}
+#product .block-social .social-list:hover>.social-icon{
+     cursor: pointer;
+     color:var(--color-text-nth);
+}
+#product .block-close{
+     position: absolute;
+     top:10px;
+     right:30px;
+}
+#product .block-close .close-btn{
+     font-size:30px;
+     transition: .3s ease-in;
+}
+#product .block-close .close-btn:hover{
+     cursor: pointer;
+     color:var(--color-text-nth);
+}

@@ -7,6 +7,8 @@ function handle(){
      handleProduct()
      // WILLIST MODAL
      willistModal()
+     // MODAL PRODUCT
+     modalProduct()
      // FOOTER COPYRIGHT
      footerCopyright()
 }
@@ -67,6 +69,20 @@ function handleProduct(){
      })
 
      
+}
+// MODAL PRODUCT
+function modalProduct(){
+     let quickView=document.querySelectorAll('#product .product-img .product-quick .quick')
+     let modalProduct=document.querySelector('#product .product-modal')
+     let closeModalProduct=document.querySelector('#product .block-close .close-btn')
+     for(var i=0;i<quickView.length;i++){
+          quickView[i].onclick=function(){
+               modalProduct.style.display='block'
+          }
+     }
+     closeModalProduct.onclick=function(){
+          modalProduct.style.display='none'
+     }
 }
 // WILLIST MODAL
 function willistModal(){
