@@ -59,8 +59,9 @@
           padding:0;
      }
      #categories .group-item{
-          margin:15px 65px;
-          width:400px;
+          margin:15px 30px;
+          height:300px;
+          
      }
      #categories .categories-link{
           display:none;
@@ -168,6 +169,7 @@
      }
      #categories .group-item{
           margin:15px 10px;
+          height:400px;
      }
      #categories .categories-link{
           display:none;
