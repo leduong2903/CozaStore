@@ -643,11 +643,10 @@
 }
 #product .block-images-right{
      width:calc(100% - 11.1111%);
-     height:500px;
+     height:100%;
 }
 #product .images-product{
      max-width: 100%;
-     height:100%;
 }
 #product .block-description .name{
      font-size:24px;
