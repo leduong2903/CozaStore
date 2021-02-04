@@ -83,6 +83,29 @@ function modalProduct(){
      closeModalProduct.onclick=function(){
           modalProduct.style.display='none'
      }
+     let colorArray=['White','Gray','Red','Yellow']
+     let sizeArray=['S','M','L','XL']
+     let selectColor=document.getElementById('selectColor')
+     let selectSize=document.getElementById('selectSize')
+     for(let i=0;i<colorArray.length;i++){
+          let option=document.createElement('option')
+          option.innerHTML=colorArray[i]
+          selectColor.appendChild(option)
+     }
+     for(let i=0;i<sizeArray.length;i++){
+          let option=document.createElement('option')
+          option.innerHTML=`Size ${sizeArray[i]}`
+          selectSize.appendChild(option)
+     }
+     let plus=document.querySelector('#product .block-count .plus')
+     let minus=document.querySelector('#product .block-count .minus')
+     let input=document.querySelector("#product .block-count input[type='text']")
+   
+     let numberPlus=1
+     plus.onclick=function(){
+     input.setAttribute('value',numberPlus++)
+     }
+     
 }
 // WILLIST MODAL
 function willistModal(){

@@ -13,6 +13,7 @@
      --color-text-second:#fff;
      --color-text-nth:#717FE0;
      --color-text-sth:#9C9C9C;
+     --color-border-button:#E6E6E6;
      --background-color-first:#717FE0;
      --background-color-second:#222222;
      --background-color-button:#e6e6e6;
@@ -699,13 +700,26 @@
 #product .block-count input[type='text']{
      height:40px;
      width:10%;
-     border:1px solid var(--color-text-sth);
+     
      text-align: center;
      margin-bottom:10px;
 }
 #product .block-count .minus,
 #product .block-count .plus{
      line-height:40px;
+     border:1px solid var(--color-border-button);
+}
+#product .block-count input[type='text']{
+     background-color:#f7f7f7;
+     border:none;
+     border-top:1px solid var(--color-border-button);
+     border-bottom:1px solid var(--color-border-button);
+}
+#product .block-count .minus:hover,
+#product .block-count .plus:hover{
+     background-color:var(--background-color-first);
+     cursor: pointer;
+     color:var(--color-text-second);
 }
 #product .block-add{
      position: relative;
@@ -767,4 +781,7 @@
 #product .block-close .close-btn:hover{
      cursor: pointer;
      color:var(--color-text-nth);
+}
+.border-active{
+     border:1px solid var(--background-color-button);
 }
