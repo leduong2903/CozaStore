@@ -90,6 +90,9 @@
      #product .product-img{
           height:auto;
      }
+     #product .product-content .product-quick{
+          display:none;
+     }
      /* WILLIST MODAL */
      #product .willist{
           width:275px;
@@ -116,6 +119,7 @@
      #footer-area .sub-button p{
           padding:10px 0;
      }
+
  }
 /* SMALL DEVICE*/
 @media screen and (min-width:576px) and (max-width:767px){
@@ -165,11 +169,11 @@
      /* CATEGORIES */
      #categories .categories-group{
           display:block;
-          margin:0;
+          margin:0 55px;
      }
      #categories .group-item{
           margin:15px 10px;
-          height:400px;
+          height:300px;
      }
      #categories .categories-link{
           display:none;
@@ -194,6 +198,9 @@
      }
      #product .product-img{
           height:auto;
+     }
+     #product .product-content .product-quick{
+          display:none;
      }
      /* WILLIST MODAL */
      #product .willist{
@@ -222,6 +229,7 @@
      #footer-area .sub-button p{
      padding:10px 0;
      }
+     
 }
 /* MEDIUM DEVICE */
 @media screen and (min-width:768px) and (max-width:991px){
@@ -296,6 +304,9 @@
      #product .product-img{
           height:auto;
      }
+     #product .product-content .product-quick{
+          display:none;
+     }
      /* WILLIST MODAL */
      #product .willist{
           width:400px;
@@ -323,6 +334,7 @@
      #footer-area .sub-button p{
      padding:10px 0;
      }
+     
 }
 /* LARGE DEVICE */
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -389,5 +401,8 @@
      }
      #footer-area .sub-button p{
           padding:10px 0;
+     }
+     #product .product-content .product-quick{
+          display:none;
      }
 }

@@ -67,11 +67,10 @@ function handleProduct(){
                active.style.height=list.offsetHeight+'px'
           }
      })
-
-     
 }
 // MODAL PRODUCT
 function modalProduct(){
+     // OPEN/CLOSE MODAL PRODUCT
      let quickView=document.querySelectorAll('#product .product-img .product-quick .quick')
      let modalProduct=document.querySelector('#product .product-modal')
      let closeModalProduct=document.querySelector('#product .block-close .close-btn')
@@ -83,6 +82,7 @@ function modalProduct(){
      closeModalProduct.onclick=function(){
           modalProduct.style.display='none'
      }
+     // SELECTION COLOR,SIZE
      let colorArray=['White','Gray','Red','Yellow']
      let sizeArray=['S','M','L','XL']
      let selectColor=document.getElementById('selectColor')
@@ -97,16 +97,32 @@ function modalProduct(){
           option.innerHTML=`Size ${sizeArray[i]}`
           selectSize.appendChild(option)
      }
+     // INCREASE/REDUCTION QUANLITY
      let plus=document.querySelector('#product .block-count .plus')
      let minus=document.querySelector('#product .block-count .minus')
      let input=document.querySelector("#product .block-count input[type='text']")
-   
-     let numberPlus=1
      plus.onclick=function(){
-     input.setAttribute('value',numberPlus++)
+          let numberDefault=parseInt(input.getAttribute('value'))
+          numberDefault=numberDefault+1
+          input.setAttribute('value',numberDefault)
      }
-     
+     minus.onclick=function(){
+          let valueInput=input.getAttribute('value')
+          valueInput=valueInput-1
+          input.setAttribute('value',valueInput)
+     }
+     // CHANGE IMAGES PRODUCT
+     let listImage=document.querySelectorAll('#product .images-items')
+     let listImageChange=document.querySelectorAll('#product .images-product')
+     listImage.forEach((click,index)=>{
+          click.onclick=function(){
+               let imgChange=listImageChange[index]
+               document.querySelector('.images-product.showImg').classList.remove('showImg')
+               imgChange.classList.add('showImg')
+          }
+     })
 }
+
 // WILLIST MODAL
 function willistModal(){
      let actionAddCart=document.querySelectorAll('#product .product-content .product-action')

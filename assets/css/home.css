@@ -641,13 +641,19 @@
 }
 #product .images-products{
      max-width:100%;
+     cursor: pointer;
 }
+
 #product .block-images-right{
      width:calc(100% - 11.1111%);
      height:100%;
 }
 #product .images-product{
      max-width: 100%;
+     display:none;
+}
+.showImg{
+     display:block !important;
 }
 #product .block-description .name{
      font-size:24px;
@@ -677,7 +683,7 @@
 #product #selectColor,
 #product #selectSize{
      height:45px;
-     width:100%;
+     max-width:100%;
      border:1px solid var(--color-text-sth);
      background-color:transparent;
      outline:none;
