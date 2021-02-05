@@ -58,14 +58,22 @@ handleSlideBanner()
 // handleProduct
 function handleProduct(){
      let listProduct=document.querySelectorAll('#product .product-top .product-items .product-links')
+     let listPages=document.querySelectorAll('#header .navigation-links')
      let active=document.querySelector('.product-links.active')
-     listProduct.forEach((list,index)=>{
+     listProduct.forEach((list)=>{
           list.onclick=function(){
                document.querySelector('.product-links.active').classList.remove('active')
                list.classList.add('active')
                active.style.width=list.offsetWidth+'px'
                active.style.height=list.offsetHeight+'px'
           }
+     })
+     listPages.forEach((eventClick)=>{
+          eventClick.onclick=function(){
+               document.querySelector('.navigation-links.checked').classList.remove('checked')
+               this.classList.add('checked')
+          }
+          
      })
 }
 // MODAL PRODUCT
